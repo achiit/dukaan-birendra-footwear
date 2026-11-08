@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Birendra Shoe Shop | Footwear in Beleghata, Kolkata since 1976</title>
+<meta name="description" content="Birendra Shoe Shop, Beleghata Road, Kolkata. 50 years of quality, comfort, style and trust. Men's, women's and kids' shoes, sandals, formal and leather footwear.">
+<meta name="theme-color" content="#1E1B18">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%231E1B18'/%3E%3Ctext x='50' y='68' font-size='56' text-anchor='middle' fill='%23D9B98C' font-family='serif'%3EB%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F4EEE6;--ink:#1E1B18;--brown:#7A4A2B;--tan:#D9B98C;--grey:#6F6A63;--card:#EBE2D5;--wa:#1E1B18;
+--serif:'Fraunces',Georgia,serif;--sans:'Manrope',system-ui,sans-serif;--pad:clamp(20px,5vw,64px)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{font-family:var(--sans);background:var(--bg);color:var(--ink);line-height:1.6;font-size:17px;padding-bottom:64px}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--serif);line-height:1.1;font-weight:700}
+h2{font-size:clamp(2rem,4.5vw,3.2rem);margin-bottom:14px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 var(--pad)}
+section{padding:90px 0}
+.eyebrow{font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--brown);font-weight:800;margin-bottom:12px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 22px;border-radius:6px;font-weight:800;text-decoration:none;border:2px solid var(--ink);font-size:.95rem;min-height:46px}
+.btn.fill{background:var(--ink);color:var(--bg)}
+.btn.out{background:transparent;color:var(--ink)}
+.btn.tan{background:var(--tan);border-color:var(--tan);color:var(--ink)}
+.stitch{display:block;width:100%;height:12px;color:var(--brown);opacity:.7}
+/* header */
+header{position:sticky;top:0;z-index:50;background:var(--bg);border-bottom:1px solid #d8cdbd;padding-top:env(safe-area-inset-top,0)}
+.hbar{display:flex;align-items:center;gap:18px;height:66px}
+.logo{font-family:var(--serif);font-weight:700;font-size:1.25rem;text-decoration:none;margin-right:auto;line-height:1}
+.logo small{display:block;font-family:var(--sans);font-size:.62rem;letter-spacing:.16em;color:var(--brown);margin-top:4px}
+nav ul{display:flex;gap:22px;list-style:none}
+nav a{text-decoration:none;font-weight:600;font-size:.92rem}
+nav a:hover{color:var(--brown)}
+.hcta{display:flex;gap:8px}
+.hcta .btn{padding:9px 14px;min-height:40px;font-size:.85rem}
+.burger{display:none;background:none;border:2px solid var(--ink);border-radius:6px;width:42px;height:40px;font-size:1.2rem;cursor:pointer;color:var(--ink)}
+/* hero */
+.hero{padding:60px 0 100px}
+.hgrid{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+.hero h1{font-size:clamp(2.3rem,5.4vw,4.2rem);margin-bottom:20px}
+.hero h1 em{color:var(--brown);font-style:italic}
+.proof{font-weight:600;color:var(--grey);margin-bottom:28px;max-width:46ch}
+.hbtns{display:flex;gap:12px;flex-wrap:wrap}
+.hvis{position:relative}
+.hvis .ph{aspect-ratio:4/5;border-radius:200px 200px 12px 12px;overflow:hidden;background:var(--ink)}
+.hvis img{width:100%;height:100%;object-fit:cover}
+.big50{position:absolute;left:-70px;bottom:-60px;font-family:var(--serif);font-size:clamp(7rem,16vw,13rem);font-weight:700;color:var(--tan);line-height:.8;text-shadow:3px 3px 0 var(--ink);z-index:2;pointer-events:none}
+.big50 span{display:block;font-family:var(--sans);font-size:.8rem;letter-spacing:.2em;color:var(--bg);text-shadow:none;background:var(--ink);padding:6px 12px;width:max-content;margin-top:14px}
+/* trust */
+.trust{background:var(--ink);color:var(--bg);padding:44px 0}
+.tgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.tgrid b{display:block;font-family:var(--serif);font-size:2.4rem;color:var(--tan);line-height:1}
+.tgrid span{font-size:.9rem;opacity:.85}
+/* services */
+.sgrid{display:grid;grid-template-columns:repeat(6,1fr);gap:18px;margin-top:36px}
+.card{background:var(--card);border-radius:10px;padding:26px;display:flex;flex-direction:column;gap:10px;grid-column:span 2}
+.card.wide{grid-column:span 3}
+.card.dark{background:var(--ink);color:var(--bg)}
+.card.dark p,.card.dark .pr{color:#cfc6b8}
+.card svg.ic{width:38px;height:38px;color:var(--brown)}
+.card.dark svg.ic{color:var(--tan)}
+.card h3{font-size:1.4rem}
+.card p{font-size:.95rem;color:var(--grey);flex:1}
+.pr{font-weight:800;font-size:.85rem;color:var(--brown)}
+.card .btn{align-self:flex-start;padding:9px 16px;min-height:40px;font-size:.85rem}
+.card.dark .btn{border-color:var(--tan);background:var(--tan);color:var(--ink)}
+/* about */
+.about{background:var(--card)}
+.agrid{display:grid;grid-template-columns:.8fr 1.2fr;gap:64px;align-items:start}
+.av{width:160px;height:160px;border-radius:50%;background:var(--brown);color:var(--bg);font-family:var(--serif);font-size:3.6rem;display:grid;place-items:center;margin-bottom:18px;border:4px solid var(--tan)}
+.about p{margin-bottom:16px}
+.diff{list-style:none;margin-top:22px;display:grid;gap:10px}
+.diff li{padding-left:30px;position:relative;font-weight:600}
+.diff li:before{content:"";position:absolute;left:0;top:.45em;width:16px;height:16px;border:2px solid var(--brown);border-radius:50% 50% 50% 0;transform:rotate(-45deg)}
+/* gallery */
+.ggrid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:170px;gap:12px;margin-top:32px}
+.ggrid figure{background:var(--ink);border-radius:8px;overflow:hidden}
+.ggrid figure:nth-child(1){grid-column:span 2;grid-row:span 2}
+.ggrid figure:nth-child(4){grid-row:span 2}
+.ggrid figure:nth-child(6){grid-column:span 2}
+.ggrid img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.ggrid figure:hover img{transform:scale(1.05)}
+/* testimonials */
+.tstgrid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:18px;margin-top:32px;align-items:start}
+.tst{border:2px solid var(--ink);border-radius:10px;padding:24px;background:var(--bg)}
+.tst:nth-child(2){margin-top:34px;background:var(--card)}
+.stars{display:flex;gap:3px;color:var(--brown);margin-bottom:10px}
+.stars svg{width:18px;height:18px}
+.tst p{margin-bottom:14px}
+.tst b{display:block}.tst small{color:var(--grey)}
+/* pricing */
+.plist{list-style:none;max-width:760px;margin-top:30px}
+.plist li{display:flex;gap:12px;align-items:baseline;padding:14px 0;border-bottom:2px dotted #b9ab97;font-weight:600}
+.plist li span:last-child{margin-left:auto;font-family:var(--serif);color:var(--brown);white-space:nowrap}
+.note{margin-top:18px;color:var(--grey);font-size:.92rem}
+/* contact */
+.cgrid{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:32px}
+.map{border:0;width:100%;height:100%;min-height:360px;border-radius:10px;background:var(--card)}
+.hours{display:grid;grid-template-columns:1fr 1fr;gap:6px 20px;margin:14px 0 24px;max-width:340px}
+.hours span:nth-child(even){font-weight:800}
+.cm{display:grid;gap:10px;margin-top:10px}
+/* footer */
+footer{background:var(--ink);color:var(--bg);padding:70px 0 40px}
+.fgrid{display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:center}
+footer h2{color:var(--tan);margin-bottom:6px}
+footer ul{list-style:none;display:flex;flex-wrap:wrap;gap:8px 22px;margin:18px 0}
+footer a{text-decoration:none}
+.bigwa{display:flex;justify-content:center;align-items:center;padding:26px;font-size:1.3rem;font-family:var(--serif);background:var(--tan);color:var(--ink);border-radius:10px;text-decoration:none;font-weight:700}
+.legal{margin-top:46px;padding-top:20px;border-top:1px solid #4a443d;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;font-size:.78rem;opacity:.85}
+/* mobile bar */
+.mbar{display:none}
+@media(max-width:1080px){.sgrid .card,.sgrid .card.wide{grid-column:span 3}.tgrid{grid-template-columns:repeat(2,1fr)}.agrid{gap:40px}}
+@media(max-width:820px){
+section{padding:70px 0}
+.hgrid,.agrid,.cgrid,.fgrid{grid-template-columns:1fr}
+.hgrid{gap:70px}
+.big50{left:-6px;bottom:-50px}
+nav{display:none;position:absolute;top:100%;left:0;right:0;background:var(--bg);border-bottom:1px solid #d8cdbd;padding:14px var(--pad)}
+nav.open{display:block}
+nav ul{flex-direction:column;gap:6px}
+nav a{display:block;padding:10px 0;font-size:1.05rem}
+.burger{display:block}
+.hcta .btn span{display:none}
+.tstgrid{grid-template-columns:1fr}.tst:nth-child(2){margin-top:0}
+.ggrid{grid-template-columns:repeat(2,1fr);grid-auto-rows:150px}
+.ggrid figure:nth-child(n){grid-column:auto;grid-row:auto}
+.ggrid figure:nth-child(1){grid-column:span 2;grid-row:span 2}
+}
+@media(max-width:768px){
+.hcta{display:none}
+.mbar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--ink);padding:8px 10px calc(8px + env(safe-area-inset-bottom,0));gap:8px}
+.mbar a{text-align:center;padding:13px;border-radius:6px;font-weight:800;text-decoration:none;font-size:1rem}
+.mbar .c{background:var(--bg);color:var(--ink)}
+.mbar .w{background:var(--tan);color:var(--ink)}
+}
+@media(max-width:520px){
+body{font-size:16px}
+.sgrid .card,.sgrid .card.wide{grid-column:span 6}
+.tgrid b{font-size:2rem}
+.hbtns .btn{flex:1;justify-content:center}
+.plist li{font-size:.95rem}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="stitch" viewBox="0 0 400 12" preserveAspectRatio="none"><path d="M0 6H400" stroke="currentColor" stroke-width="2" stroke-dasharray="10 7" fill="none"/></symbol>
+<symbol id="star" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2l2.9 6.9 7.1.6-5.4 4.7 1.7 7.1L12 17.6 5.7 21.3l1.7-7.1L2 9.5l7.1-.6z"/></symbol>
+<symbol id="shoe" viewBox="0 0 40 40"><path d="M4 28V12l8 4 6-6 4 6c6 1 14 4 14 10v2H4z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><path d="M4 28h32M14 20l-2 3M19 21l-2 3M24 22l-2 3" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+</defs></svg>
+
+<header>
+<div class="wrap hbar">
+<a class="logo" href="#top">Birendra Shoe Shop<small>BELEGHATA · SINCE 1976</small></a>
+<nav id="nav" aria-label="Main">
+<ul>
+<li><a href="#shop">Shop</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#reviews">Reviews</a></li>
+<li><a href="#prices">Prices</a></li>
+<li><a href="#contact">Visit</a></li>
+</ul>
+</nav>
+<div class="hcta">
+<a class="btn out" href="tel:+916289105811">Call</a>
+<a class="btn fill" href="https://wa.me/916289105811?text=Hello%20Birendra%20Shoe%20Shop%2C%20I%20want%20to%20know%20about%20your%20footwear." target="_blank" rel="noopener">WhatsApp</a>
+</div>
+<button class="burger" id="burger" aria-label="Menu" aria-expanded="false">&#9776;</button>
+</div>
+</header>
+
+<main id="top">
+<section class="hero">
+<div class="wrap hgrid">
+<div>
+<p class="eyebrow">Beleghata Road, Kolkata</p>
+<h1>Shoes your whole family can <em>walk in</em>, trusted on Beleghata Road for 50 years.</h1>
+<p class="proof">Three generations of Beleghata families have bought their first school shoes and their wedding shoes right here.</p>
+<div class="hbtns">
+<a class="btn fill" href="https://wa.me/916289105811?text=Hello%20Birendra%20Shoe%20Shop%2C%20I%20saw%20your%20website.%20Please%20share%20what%20is%20available." target="_blank" rel="noopener">Chat on WhatsApp</a>
+<a class="btn out" href="tel:+916289105811">Call 62891 05811</a>
+</div>
+</div>
+<div class="hvis">
+<div class="ph"><img src="https://images.unsplash.com/photo-1614252369475-531eba835eb1?w=800&auto=format&fit=crop" alt="Polished brown leather shoes" width="800" height="1000" fetchpriority="high" onerror="this.style.display='none'"></div>
+<div class="big50">50<span>YEARS OF TRUST</span></div>
+</div>
+</div>
+</section>
+
+<div class="trust"><div class="wrap tgrid">
+<div><b>50</b><span>years on Beleghata Road</span></div>
+<div><b>8</b><span>footwear ranges under one roof</span></div>
+<div><b>3</b><span>generations of customers</span></div>
+<div><b>11 hrs</b><span>open every day, 10 AM to 9 PM</span></div>
+</div></div>
+
+<section id="shop">
+<div class="wrap">
+<svg class="stitch"><use href="#stitch"/></svg>
+<p class="eyebrow" style="margin-top:50px">What we sell</p>
+<h2>Footwear for every foot in the family</h2>
+<p style="max-width:56ch;color:var(--grey)">Come in, try on, walk around the shop. Tap WhatsApp on any card and we will tell you what is in stock today.</p>
+<div class="sgrid">
+<article class="card wide dark"><svg class="ic"><use href="#shoe"/></svg><h3>Men's Shoes</h3><p>Everyday and occasion pairs in sizes 6 to 12, with proper cushioning for long days on your feet.</p><span class="pr">Price: ask on WhatsApp</span><a class="btn" href="https://wa.me/916289105811?text=Hello%2C%20I%20want%20to%20see%20men%27s%20shoes.%20What%20is%20available%3F" target="_blank" rel="noopener">Ask about this</a></article>
+<article class="card wide"><svg class="ic"><use href="#shoe"/></svg><h3>Women's Footwear</h3><p>Flats, sandals and comfortable daily pairs that suit office, market and festival days.</p><span class="pr">Price: ask on WhatsApp</span><a class="btn fill" href="https://wa.me/916289105811?text=Hello%2C%20I%20want%20to%20see%20women%27s%20footwear.%20What%20is%20available%3F" target="_blank" rel="noopener">Ask about this</a></article>
+<article class="card"><svg class="ic"><use href="#shoe"/></svg><h3>Kids' Shoes</h3><p>School and play shoes. We check the fit with the child standing, not guess.</p><span class="pr">Price: ask on WhatsApp</span><a class="btn fill" href="https://wa.me/916289105811?text=Hello%2C%20I%20need%20kids%27%20shoes.%20Child%27s%20age%20is%20" target="_blank" rel="noopener">Ask about this</a></article>
+<article class="card"><svg class="ic"><use href="#shoe"/></svg><h3>Formal Shoes</h3><p>Clean, polished pairs for interviews, offices, weddings and puja functions.</p><span class="pr">Price: ask on WhatsApp</span><a class="btn fill" href="https://wa.me/916289105811?text=Hello%2C%20I%20want%20to%20see%20formal%20shoes." target="_blank" rel="noopener">Ask about this</a></article>
+<article class="card"><svg class="ic"><use href="#shoe"/></svg><h3>Casual Shoes</h3><p>Easy everyday pairs for college, market and weekend outings.</p><span class="pr">Price: ask on WhatsApp</span><a class="btn fill" href="https://wa.me/916289105811?text=Hello%2C%20I%20want%20to%20see%20casual%20shoes." target="_blank" rel="noopener">Ask about this</a></article>
+<article class="card wide"><svg class="ic"><use href="#shoe"/></svg><h3>Sports Shoes</h3><p>Walking, running and gym shoes with grip and support, for morning walkers and young players alike.</p><span class="pr">Price: ask on WhatsApp</span><a class="btn fill" href="https://wa.me/916289105811?text=Hello%2C%20I%20want%20to%20see%20sports%20shoes." target="_blank" rel="noopener">Ask about this</a></article>
+<article class="card"><svg class="ic"><use href="#shoe"/></svg><h3>Sandals &amp; Slippers</h3><p>Light, durable pairs for the Kolkata heat and monsoon.</p><span class="pr">Price: ask on WhatsApp</span><a class="btn fill" href="https://wa.me/916289105811?text=Hello%2C%20I%20want%20to%20see%20sandals%20and%20slippers." target="_blank" rel="noopener">Ask about this</a></article>
+<article class="card wide dark"><svg class="ic"><use href="#shoe"/></svg><h3>Leather Shoes</h3><p>Real leather that softens with wear and can be polished for years. Our oldest and proudest range.</p><span class="pr">Price: ask on WhatsApp</span><a class="btn" href="https://wa.me/916289105811?text=Hello%2C%20I%20want%20to%20see%20leather%20shoes." target="_blank" rel="noopener">Ask about this</a></article>
+</div>
+</div>
+</section>
+
+<section class="about" id="about">
+<div class="wrap agrid">
+<div>
+<div class="av" aria-hidden="true">BP</div>
+<h2>Birendra Prasad</h2>
+<p class="eyebrow">Owner, Birendra Shoe Shop</p>
+</div>
+<div>
+<p>This shop began in 1976 on Beleghata Road with one small counter and a promise: sell only what I would put on my own family's feet. That promise has not changed in fifty years.</p>
+<p>Many of my customers now send their children and grandchildren to buy shoes here. When a man tells me his father bought his first pair from this counter, that is the best thing anyone can say to me.</p>
+<p>Come in, sit down, try the shoe, walk a little. If it does not feel right, we will find one that does.</p>
+<ul class="diff">
+<li>50 years in the same neighbourhood</li>
+<li>Try before you buy, no hurry</li>
+<li>Footwear for men, women and children</li>
+<li>Honest advice on fit and quality</li>
+<li>Owner is at the counter himself</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="gallery">
+<div class="wrap">
+<svg class="stitch"><use href="#stitch"/></svg>
+<p class="eyebrow" style="margin-top:50px">Inside the shop</p>
+<h2>A look at the shelves</h2>
+<div class="ggrid">
+<figure><img loading="lazy" src="https://images.unsplash.com/photo-1614252369475-531eba835eb1?w=800&auto=format&fit=crop" alt="Brown leather formal shoes" onerror="this.style.display='none'"></figure>
+<figure><img loading="lazy" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&auto=format&fit=crop" alt="Red sports shoe" onerror="this.style.display='none'"></figure>
+<figure><img loading="lazy" src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&auto=format&fit=crop" alt="Women's heeled footwear" onerror="this.style.display='none'"></figure>
+<figure><img loading="lazy" src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=800&auto=format&fit=crop" alt="Kids' canvas shoes" onerror="this.style.display='none'"></figure>
+<figure><img loading="lazy" src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=800&auto=format&fit=crop" alt="Casual sneakers" onerror="this.style.display='none'"></figure>
+<figure><img loading="lazy" src="https://images.unsplash.com/photo-1560343090-f0409e92791a?w=800&auto=format&fit=crop" alt="Pair of shoes on display" onerror="this.style.display='none'"></figure>
+</div>
+</div>
+</section>
+
+<section id="reviews" style="background:var(--card)">
+<div class="wrap">
+<p class="eyebrow">Words from the neighbourhood</p>
+<h2>What our customers say</h2>
+<div class="tstgrid">
+<blockquote class="tst"><div class="stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></div><p>My dada bought shoes here, my father did too, now I do. Fit is always right and nobody pushes you to buy.</p><b>Subir Dey</b><small>Beleghata</small></blockquote>
+<blockquote class="tst"><div class="stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></div><p>Got my son's school shoes before the new session. Uncle checked the size properly. Good price too.</p><b>Rina Saha</b><small>Phoolbagan</small></blockquote>
+<blockquote class="tst"><div class="stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></div><p>Leather shoes for my daughter's wedding. Still looking sharp after two years of office use.</p><b>Amit Ghosh</b><small>Narkeldanga</small></blockquote>
+</div>
+</div>
+</section>
+
+<section id="prices">
+<div class="wrap">
+<p class="eyebrow">Pricing</p>
+<h2>Fair prices, told upfront</h2>
+<p style="max-width:56ch;color:var(--grey)">Prices change with brand and material, so we quote the exact price for the pair you like, before you decide.</p>
+<ul class="plist">
+<li><span>Men's Shoes</span><span>Ask for today's price</span></li>
+<li><span>Women's Footwear</span><span>Ask for today's price</span></li>
+<li><span>Kids' Shoes</span><span>Ask for today's price</span></li>
+<li><span>Formal &amp; Leather Shoes</span><span>Ask for today's price</span></li>
+<li><span>Casual &amp; Sports Shoes</span><span>Ask for today's price</span></li>
+<li><span>Sandals &amp; Slippers</span><span>Ask for today's price</span></li>
+</ul>
+<p class="note">Send us a photo or your budget on WhatsApp and we will reply with options.</p>
+<p style="margin-top:22px"><a class="btn fill" href="https://wa.me/916289105811?text=Hello%2C%20please%20tell%20me%20the%20price%20of%20footwear.%20My%20budget%20is%20" target="_blank" rel="noopener">Ask for prices</a></p>
+</div>
+</section>
+
+<section id="contact" style="background:var(--card)">
+<div class="wrap">
+<p class="eyebrow">Visit us</p>
+<h2>Find us on Beleghata Road</h2>
+<div class="cgrid">
+<div>
+<p><b>Birendra Shoe Shop</b><br>11/2 Beleghata Road, Kolkata - 15</p>
+<div class="hours" aria-label="Opening hours">
+<span>Monday to Sunday</span><span>10:00 AM to 9:00 PM</span>
+</div>
+<p class="note" style="margin:-10px 0 20px">Please call once to confirm hours on festival days.</p>
+<div class="cm">
+<a class="btn fill" href="tel:+916289105811">Call 62891 05811</a>
+<a class="btn out" href="https://wa.me/916289105811?text=Hello%20Birendra%20Shoe%20Shop%2C%20I%20want%20to%20visit.%20Are%20you%20open%20now%3F" target="_blank" rel="noopener">WhatsApp us</a>
+<a class="btn out" href="https://maps.google.com/maps?q=11%2F2%20Beleghata%20Road%2C%20Kolkata%20700015" target="_blank" rel="noopener">Get directions</a>
+</div>
+</div>
+<iframe class="map" title="Map to Birendra Shoe Shop" loading="lazy" src="https://maps.google.com/maps?q=11%2F2%20Beleghata%20Road%2C%20Kolkata%20700015&output=embed"></iframe>
+</div>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="wrap">
+<div class="fgrid">
+<div>
+<h2>Birendra Shoe Shop</h2>
+<p>50 Years of Quality, Comfort, Style &amp; Trust</p>
+<ul>
+<li><a href="#shop">Shop</a></li><li><a href="#about">About</a></li><li><a href="#gallery">Gallery</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#prices">Prices</a></li><li><a href="#contact">Visit</a></li>
+</ul>
+</div>
+<a class="bigwa" href="https://wa.me/916289105811?text=Hello%20Birendra%20Shoe%20Shop%2C%20I%20want%20to%20buy%20footwear." target="_blank" rel="noopener">Chat on WhatsApp</a>
+</div>
+<div class="legal"><span>&copy; <span id="yr">2026</span> Birendra Shoe Shop, Beleghata, Kolkata</span><span>built with ❤️ by 21.coders</span></div>
+</div>
+</footer>
+
+<div class="mbar">
+<a class="c" href="tel:+916289105811">Call</a>
+<a class="w" href="https://wa.me/916289105811?text=Hello%20Birendra%20Shoe%20Shop%2C%20I%20want%20to%20know%20about%20your%20footwear." target="_blank" rel="noopener">WhatsApp</a>
+</div>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+var b=document.getElementById('burger'),n=document.getElementById('nav');
+b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)});
+n.addEventListener('click',function(e){if(e.target.tagName==='A'){n.classList.remove('open');b.setAttribute('aria-expanded',false)}});
+</script>
+</body>
+</html>
